@@ -8,7 +8,12 @@
 
 let fruits = ["banana", "Watermelon", "Strawberries", "Apples", "oranges"];
 
-console.log(fruits[3]);  //gpt-2 false 
+console.log(fruits.indexOf("Apples "));
 
-fruits[2] = "jambura";
+console.log(fruits[3]);  //gpt-2 false   
+
+ fruits[2] = "jambura";
 console.log(fruits);
+ 
+
+===
